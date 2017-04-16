@@ -1,3 +1,5 @@
+execute pathogen#infect() 
+
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 set number " show line numbers
 syntax on " enable syntax highlightning
@@ -6,7 +8,7 @@ set vb t_vb= " make sure there are no visual bells (screen flashing)
 set encoding=utf-8 " set text encoding
 set fileencoding=utf-8
 colorscheme badwolf " set color scheme (file located in .vim/colors/)
-" map control-o to escape:
+" map control-i to escape:
 inoremap <C-O> <Esc> 
         
 set nocompatible " don't worry about emulating vi
