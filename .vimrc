@@ -1,6 +1,6 @@
 execute pathogen#infect() 
 
-set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+set tabstop=8 softtabstop=0 expandtab shiftwidth=2 smarttab
 set number " show line numbers
 syntax on " enable syntax highlightning
 set noerrorbells " keep the error bell from sounding
@@ -15,3 +15,4 @@ set nocompatible " don't worry about emulating vi
 set path+=** " provides tab completion for file-related searches (:find:)
 " note: let vim reside in your project root!
 set wildmenu " display all matching files when tab completing in e.g. :find
+set clipboard=unnamed
