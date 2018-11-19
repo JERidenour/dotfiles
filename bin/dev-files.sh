@@ -4,5 +4,7 @@ mkdir data
 mkdir img
 mkdir latex
 mkdir raw
-touch raw/README.md
 mkdir src
+touch raw/README.md
+touch default.nix
+touch makefile
