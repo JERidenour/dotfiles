@@ -16,3 +16,4 @@ set path+=** " provides tab completion for file-related searches (:find:)
 " note: let vim reside in your project root!
 set wildmenu " display all matching files when tab completing in e.g. :find
 set clipboard=unnamed
+set nohlsearch " disable highlight during search
