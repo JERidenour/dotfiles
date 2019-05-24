@@ -7,7 +7,12 @@ set noerrorbells " keep the error bell from sounding
 set vb t_vb= " make sure there are no visual bells (screen flashing)
 set encoding=utf-8 " set text encoding
 set fileencoding=utf-8
-colorscheme badwolf " set color scheme (file located in .vim/colors/)
+colorscheme apprentice " set color scheme (file located in .vim/colors/)
+" good color schemes: badwolf, wombat256mod, allomancer, apprentice, afterglow
+autocmd FileType python colorscheme wombat256mod
+autocmd FileType r colorscheme allomancer
+autocmd FileType scala colorscheme apprentice
+
 " map control-i to escape:
 inoremap <C-O> <Esc> 
         
