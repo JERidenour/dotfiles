@@ -13,6 +13,7 @@ colorscheme apprentice " set color scheme (file located in .vim/colors/)
 autocmd FileType python colorscheme wombat256mod
 autocmd FileType r colorscheme PaperColor
 autocmd FileType scala colorscheme apprentice
+autocmd FileType latex colorscheme nachtleben
 
 " map control-i to escape:
 inoremap <C-O> <Esc> 
