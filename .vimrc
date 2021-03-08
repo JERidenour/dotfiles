@@ -1,4 +1,5 @@
-execute pathogen#infect() 
+call pathogen#infect()
+call pathogen#helptags()
 
 set tabstop=8 softtabstop=0 expandtab shiftwidth=2 smarttab
 set number " show line numbers
@@ -12,7 +13,7 @@ colorscheme apprentice " set color scheme (file located in .vim/colors/)
 " good color schemes: badwolf, wombat256mod, allomancer, apprentice, afterglow
 autocmd FileType python colorscheme wombat256mod
 autocmd FileType r colorscheme PaperColor
-autocmd FileType scala colorscheme apprentice
+#autocmd FileType scala colorscheme apprentice
 autocmd FileType latex colorscheme nachtleben
 
 " map control-i to escape:
